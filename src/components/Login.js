@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 function Login({ onLogin }) {
-  const history = useHistory(); // Get the history object
+  const history = useHistory(); 
 
   const [formData, setFormData] = useState({
     username: "",
